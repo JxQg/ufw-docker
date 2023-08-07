@@ -537,6 +537,11 @@ UFW 是 Ubuntu 上很流行的一个 iptables 前端，可以非常方便的管�
 
 运行在 Docker Swarm 模式下，这个脚本将会创建一个全局服务 `ufw-docker-agent`。这个镜像 [chaifeng/ufw-docker-agent](https://hub.docker.com/r/chaifeng/ufw-docker-agent/) 是由本项目自动构建的。
 
+安装完毕暴露端口之后需要重启ufw服务器
+   ```
+   sudo systemctl restart uft
+   ```
+
 ### 使用方法
 
 显示帮助
