@@ -539,7 +539,7 @@ UFW 是 Ubuntu 上很流行的一个 iptables 前端，可以非常方便的管�
 
 安装完毕暴露端口之后需要重启ufw服务器
    ```
-   sudo systemctl restart uft
+   sudo systemctl restart ufw
    ```
 
 ### 使用方法
